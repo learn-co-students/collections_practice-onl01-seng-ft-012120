@@ -11,17 +11,19 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  element1 = array[1]
-  element2 = array[2]
-  array[1] = element2
-  array[2]= element1
+  # element1 = array[1]
+  # element2 = array[2]
+  # array[1] = element2
+  # array[2]= element1
+  array[1], array[2] = array[2], array[1]
   array
 end
 def swap_elements_from_to(array,index_from, index_to)
-  element1 = array[index_from]
-  element2 = array[index_to]
-  array[index_from] = element2
-  array[index_to]= element1
+  # element1 = array[index_from]
+  # element2 = array[index_to]
+  # array[index_from] = element2
+  # array[index_to]= element1
+  array[index_from], array[index_to] = array[index_to], array[index_from]
   array
 end
 
